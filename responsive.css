@@ -18,13 +18,19 @@
 	.lesson {
 		float: left;
 		width: 33%;
-		padding: 10px 20px 10px 20px;
+		padding: 10px 10px 10px 10px;
 		color: rgba(0, 0, 0, 0.6);
 		text-align: center;
 	}
 
+	.lesson img {
+		width: 160px;
+		height: 160px;
+	}
+
 	.lesson p {
 		font-size: 13px;
+		padding-bottom: 60px;
 	}
 
 	.email,
@@ -59,7 +65,7 @@
 	}
 
 	.top-wrapper {
-		padding: 120px 0 120px 0;
+		padding: 120px 0 70px 0;
 	}
 
 	.top-wrapper h1 {
@@ -72,13 +78,8 @@
 
 	.section-title {
 		font-size: 18px;
-		border-bottom: 2px solid #dee7ec;
 		padding-bottom: 15px;
-		margin-bottom: 15px;
-	}
-
-	.curriculum-wrapper {
-		padding: 10px 0;
+		margin-bottom: 30px;
 	}
 
 	.lesson {
@@ -100,6 +101,7 @@
 
 	.lesson p {
 		font-size: 8px;
+		padding-bottom: 40px;
 	}
 
 	.email,
@@ -118,7 +120,7 @@
 
 @media all and (max-width: 460px) {
 	.top-wrapper {
-		padding: 100px 0 90px 0;
+		padding: 110px 0 50px 0;
 	}
 
 	.top-wrapper h1 {
@@ -148,7 +150,7 @@
 
 	.lesson p {
 		margin-top: -3px;
-		margin-bottom: -20px;
+		margin-bottom: 10px;
 	}
 
 	footer {
